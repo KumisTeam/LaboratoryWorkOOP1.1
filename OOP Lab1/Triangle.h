@@ -7,7 +7,8 @@ class Triangle
 		Triangle(float a1, float b1, float a2, float b2, float a3, float b3);
 		float STriangle();
 		float PTriangle();
-		
+		void setFirstPoint(float a1, float b1);
+
 	private:
 		float x1;
 		float y1;

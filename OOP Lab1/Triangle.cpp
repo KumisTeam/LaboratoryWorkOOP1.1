@@ -13,6 +13,12 @@ Triangle::Triangle(float a1, float b1, float a2, float b2, float a3, float b3)
 	this->y3 = b3;
 }
 
+void Triangle::setFirstPoint(float a1, float b1)
+{
+	x1 = a1;
+	y1 = b1;
+}
+
 float Triangle::Distance(float a1, float b1, float a2, float b2){
 	return sqrt(pow((a2 - a1), 2) + pow((b2 - b1), 2));
 }
